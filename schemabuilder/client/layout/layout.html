@@ -1,0 +1,23 @@
+<template name="layout">
+  <head>
+    <title>Pageroor Template</title>
+
+  </head>
+<body>
+  {{>navigation}}
+<div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span2">
+        {{>sidebar}}
+      </div>
+      <div class="span10">
+        {{>yield}}
+      </div>
+    </div>
+</div>
+
+ <div class="container">
+
+ </div>
+ </body>
+</template>
